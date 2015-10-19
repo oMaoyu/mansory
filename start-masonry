@@ -1,6 +1,6 @@
 jQuery( document ).ready( function( $ ) {
 
-    /* Masonry + Infinite Scroll */
+    /* Masonry homepage */
 
 
     var $container = $('.grid-container');
@@ -28,7 +28,7 @@ jQuery( document ).ready( function( $ ) {
 
 jQuery( document ).ready( function( $ ) {
 
-    /* Masonry + Infinite Scroll */
+    /* Masonry page best of */
 
 
     var $container = $('.mansory-container');
