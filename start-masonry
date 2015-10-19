@@ -1,0 +1,48 @@
+jQuery( document ).ready( function( $ ) {
+
+    /* Masonry + Infinite Scroll */
+
+
+    var $container = $('.grid-container');
+
+    $container.imagesLoaded(function () {
+        $container.masonry({
+            itemSelector: '.masonry-element',
+//             columnWidth: 300,
+ 			columnWidth: '.grid-sizer',
+             percentPosition: true,
+             gutter: 100,
+              isFitWidth: true
+        });
+    });
+
+});
+
+
+
+
+
+
+
+
+
+
+jQuery( document ).ready( function( $ ) {
+
+    /* Masonry + Infinite Scroll */
+
+
+    var $container = $('.mansory-container');
+
+    $container.imagesLoaded(function () {
+        $container.masonry({
+            itemSelector: '.masonry-element',
+//             columnWidth: 300,
+ 			columnWidth: '.mansory-sizer',
+             percentPosition: true,
+ //            gutter: 0,
+              isFitWidth: true
+        });
+    });
+
+});
